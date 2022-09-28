@@ -11,7 +11,7 @@ jobs:
     runs-on: windows-latest
     steps:
     - name: Health Report
-      uses: djh29/SYSU-HealthReport@master
+      uses: djh29/djh_health@main
       with:
         netid: ${{secrets.NETID}}
         password: ${{secrets.PASSWORD}}
